@@ -3,28 +3,36 @@ import React from 'react';
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Website",
-      description: "A full-stack e-commerce platform built with React, Node.js, and MongoDB. Features include user authentication, product catalog, shopping cart, and payment integration.",
-      technologies: ["React", "Node.js", "MongoDB", "Express", "Stripe"],
-      liveLink: "https://your-project-url.com",
-      githubLink: "https://github.com/yourusername/project",
-      image: "/api/placeholder/600/400"
+      title: "Shreem Enter",
+      description: "A professional business website built using React and Tailwind CSS, featuring a responsive UI and engaging layout.",
+      technologies: ["React", "Tailwind CSS", "JavaScript"],
+      liveLink: "https://shreem-enter-kmsnwecmx-neha-patankars-projects.vercel.app/",
+      githubLink: "https://github.com/Neha-patankar/shreem-enter",
+      // image: "/api/placeholder/600/400"
     },
     {
-      title: "Task Management App",
-      description: "A responsive task management application with real-time updates, user collaboration features, and customizable workspaces.",
-      technologies: ["Next.js", "Tailwind CSS", "MongoDB", "React"],
-      liveLink: "https://your-project-url.com",
-      githubLink: "https://github.com/yourusername/project",
-      image: "/api/placeholder/600/400"
+      title: "Talent Max Jobs",
+      description: "A job listing platform for employers and job seekers with dynamic filtering and responsive design.",
+      technologies: ["React", "Tailwind CSS", "JSON"],
+      liveLink: "https://talent-max-jobs-bgpfk8r6g-neha-patankars-projects.vercel.app/",
+      githubLink: "https://github.com/Neha-patankar/talent-max-jobs",
+      // image: "/api/placeholder/600/400"
     },
     {
-      title: "Portfolio Website",
-      description: "A modern portfolio website built with Next.js and Tailwind CSS, featuring responsive design and smooth animations.",
-      technologies: ["Next.js", "Tailwind CSS", "React"],
-      liveLink: "https://your-project-url.com",
-      githubLink: "https://github.com/yourusername/project",
-      image: "/api/placeholder/600/400"
+      title: "Sample Company",
+      description: "Sample landing page designed for startup/company websites with clean UI and easy navigation.",
+      technologies: ["React", "Tailwind CSS"],
+      liveLink: "https://sample-company-pmndg9dbq-neha-patankars-projects.vercel.app/",
+      githubLink: "https://github.com/Neha-patankar/sample-company",
+      // image: "/api/placeholder/600/400"
+    },
+    {
+      title: "Aanshi Solutions",
+      description: "Corporate site for Aanshi Solutions including About, Services, and Contact sections with smooth scroll.",
+      technologies: ["React", "Tailwind CSS"],
+      liveLink: "https://aanshi-solutions-ax7yhnxja-neha-patankars-projects.vercel.app/",
+      githubLink: "https://github.com/Neha-patankar/aanshi-solutions",
+      // image: "/api/placeholder/600/400"
     }
   ];
 
@@ -45,11 +53,11 @@ const Projects = () => {
               className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
             >
               <div className="relative overflow-hidden group">
-                <img 
+                {/* <img 
                   src={project.image} 
                   alt={project.title}
                   className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
-                />
+                /> */}
                 <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center space-x-4">
                   <a 
                     href={project.liveLink}
