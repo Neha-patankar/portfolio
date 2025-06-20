@@ -6,7 +6,7 @@ const ContactUs = () => {
     <>
       <section
         id="contactus"
-        className="py-20 bg-gradient-to-b from-[#f0f4f8] via-[#e0ecf7] to-[#d4e4f7]"
+        className="py-0 bg-gradient-to-b from-[#f0f4f8] via-[#e0ecf7] to-[#d4e4f7]"
       >
         {/* Contact form content would go here */}
       </section>
@@ -18,10 +18,11 @@ const ContactUs = () => {
           <div className="flex flex-col md:flex-row justify-between items-center mb-6 pb-6 border-b border-gray-700">
             <div className="mb-4 md:mb-0">
               <h2 className="text-xl font-bold">Neha Patankar</h2>
-              <p className="text-gray-400 mt-1">Web Developer & Designer</p>
+              <p className="text-gray-400 mt-1">Full stack Developer</p>
             </div>
 
             <div className=" gap-4">
+               <h3 className="font-medium mb-2 text-blue-300">Social Media Links</h3>
               <a
                 href="https://www.linkedin.com/in/neha-patankar-42b274296"
                 target="_blank"
@@ -62,7 +63,7 @@ const ContactUs = () => {
                 <ul className="space-y-1">
                   <li>
                     <a href="mailto:nehapatanka122@gmail.com" className="text-gray-300 hover:text-blue-400 transition flex items-center">
-                      <span className="mr-2">📧</span> Email:<span>nehapatanka122</span>
+                      <span className="mr-2">📧</span> Email:<span>nehapatanka122@gmail.com</span>
                     </a>
                   </li>
                   <li>

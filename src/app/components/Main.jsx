@@ -8,6 +8,7 @@ import Projects from './Project';
 import ContactUs from './ContactUs';
 
 import Homeimage from './Homeimage';
+import WorkExperience from './WorkExperience';
 
 
 const Main = () => {
@@ -16,10 +17,11 @@ const Main = () => {
        <Navbar/>
        <Homeimage/>
         <AboutUs/>
-        <Education/>
-        <Certifications/>
         <Skills/>
+        <WorkExperience/>
         <Projects/>
+        <Certifications/>
+        <Education/>
         <ContactUs/>
     </div>
   )

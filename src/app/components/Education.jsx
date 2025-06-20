@@ -2,13 +2,13 @@ import React from 'react';
 
 const Education = () => {
   return (
-    <section id="education" className="py-16 bg-gradient-to-b from-gray-50 to-white">
+    <section id="education" className="py-16 bg-gradient-to-b from-gray-100 to-white">
       <div className="container mx-auto px-4 max-w-5xl">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-800">
             My <span className="text-blue-600">Education</span>
           </h2>
-          <p className="text-gray-500 mt-2 text-lg">A journey of learning and growth</p>
+     
           <div className="h-1 w-24 bg-blue-600 mx-auto mt-4 rounded-full"></div>
         </div>
 

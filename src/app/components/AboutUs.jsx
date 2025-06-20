@@ -1,5 +1,5 @@
 import React from 'react';
-import { UserCircle, Code, Database, Layout } from 'lucide-react';
+import { UserCircle, Code, Database, Layout, Upload } from 'lucide-react';
 
 const AboutUs = () => {
   const skills = [
@@ -11,24 +11,31 @@ const AboutUs = () => {
     {
       icon: <Database className="w-6 h-6" />,
       title: 'Backend',
-      text: 'Node.js, Express.js, MongoDB, REST APIs',
+      text: 'Node.js, Express.js, MongoDB, REST APIs, JWT Authentication',
     },
     {
       icon: <Layout className="w-6 h-6" />,
       title: 'UI/UX',
       text: 'Responsive Design, User Experience, Mobile-First Design',
     },
+    {
+      icon: <Upload className="w-6 h-6" />,
+      title: 'Hosting & Deployment',
+      text: 'Vercel, GitHub Pages, Hostinger, IIS Server',
+    },
   ];
 
   return (
     <section
       id="aboutus"
-      className="bg-gradient-to-br from-purple-950 via-pink-700 to-blue-900 text-white py-20 px-4"
+      className="bg-gradient-to-br from-purple-950 via-pink-700 to-blue-900 text-white py-5 px-4"
     >
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-7xl mx-auto">
         {/* Title */}
-        <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold mb-2">About <span className="text-yellow-300">Me</span></h2>
+        <div className="text-center mb-5">
+          <h2 className="text-4xl font-bold mb-2">
+            About <span className="text-yellow-300">Me</span>
+          </h2>
           <div className="w-20 h-1 bg-yellow-400 mx-auto rounded-full" />
         </div>
 
@@ -63,7 +70,7 @@ const AboutUs = () => {
         </div>
 
         {/* Skill Cards */}
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {skills.map((skill, index) => (
             <div
               key={index}
@@ -72,8 +79,8 @@ const AboutUs = () => {
               <div className="flex items-center justify-center w-12 h-12 bg-pink-100 rounded-full mb-4 text-pink-700">
                 {skill.icon}
               </div>
-              <h4 className="text-xl font-semibold mb-2">{skill.title}</h4>
-              <p className="text-gray-600">{skill.text}</p>
+              <h4 className="text-xl font-semibold text-pink-700 mb-2">{skill.title}</h4>
+              <p className="text-black font-bold">{skill.text}</p>
             </div>
           ))}
         </div>
