@@ -1,5 +1,6 @@
 import React from 'react';
 import { UserCircle, Code, Database, Layout, Upload } from 'lucide-react';
+import SkillCards from './SkillCards';
 
 const AboutUs = () => {
   const skills = [
@@ -84,6 +85,7 @@ const AboutUs = () => {
             </div>
           ))}
         </div>
+        <SkillCards/>
       </div>
     </section>
   );
