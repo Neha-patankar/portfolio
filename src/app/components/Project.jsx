@@ -7,7 +7,7 @@ const Projects = () => {
   
   const projects = [
     {
-      title: "Shreem Enter",
+      title: "Shreem Enterprise",
       description: "A professional business website built using React and Tailwind CSS, featuring a responsive UI and engaging layout with modern design principles.",
       technologies: ["React", "Tailwind CSS", "JavaScript" ,"Node.js", "Express", "MongoDB"],
       liveLink: "https://shreem-enter-kmsnwecmx-neha-patankars-projects.vercel.app/",

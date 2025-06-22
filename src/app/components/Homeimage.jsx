@@ -23,7 +23,7 @@ const Homeimage = () => {
     "Node.js Developer",
   ];
 
-  const skills = ["React", "Next.js", "Node.js", "MongoDB", "Express", "JavaScript"];
+  const skills = ["React", "Next.js", "React Native", "Node.js", "MongoDB", "Express", "JavaScript"];
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -55,7 +55,7 @@ const Homeimage = () => {
           </h1>
 
           {/* Role */}
-          <h2 className="text-xl sm:text-2xl text-white text-opacity-80 mb-6 min-h-[2.5rem]">
+          <h2 className="text-xl text-center items-center sm:text-4xl font-bold text-white text-opacity-80 mb-6 min-h-[2.5rem] bg-gradient-to-r from-pink-400 via-purple-400 to-pink-400 ">
             {roles[currentRole]}
           </h2>
 

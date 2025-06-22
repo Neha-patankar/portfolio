@@ -7,7 +7,7 @@ const experiences = [
     role: "Full Stack Developer",
     company: "Aanshi Solutions Pvt. Ltd.",
     duration: "February 2025 – Present",
-    location: "Remote",
+    location: "Work From Home",
     type: "Full-time",
     responsibilities: [
       "Full ownership of end-to-end development for an Association Industry-Level Project",
@@ -23,7 +23,7 @@ const experiences = [
     role: "Full Stack Developer",
     company: "Brandsmashers Tech Pvt. Ltd.",
     duration: "August 2024 – February 2025",
-    location: "Hybrid",
+    location: "Work From Office",
     type: "Full-time",
     responsibilities: [
       "Worked mainly on React-based frontend development for multiple products",
@@ -38,7 +38,7 @@ const experiences = [
     role: "Frontend Developer",
     company: "SSS Technologies Pvt. Ltd.",
     duration: "March 2024 – August 2024",
-    location: "Remote",
+    location: "Work From Office",
     type: "Internship",
     responsibilities: [
       "Developed frontend UI for Shreem Enterprises Website",
@@ -181,12 +181,7 @@ const WorkExperience = () => {
         </div>
 
         {/* Bottom CTA */}
-        {/* <div className="text-center mt-16">
-          <div className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg font-semibold hover:shadow-lg transition-all duration-300 hover:scale-105 cursor-pointer">
-            <span>View Full Resume</span>
-            <ChevronRight className="w-4 h-4" />
-          </div>
-        </div> */}
+        
       </div>
     </section>
   );
